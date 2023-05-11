@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  margin-right: auto;
+}
+
+.nav_links {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  margin-right: 40px;
+  width: 60%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+h2 {
+  font-family: 'Gruppo', cursive;
+}
