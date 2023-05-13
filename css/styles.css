@@ -1,34 +1,128 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0 5% 0 5%;
   box-sizing: border-box;
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-}
-
-.logo {
-  display: flex;
-  margin-right: auto;
-}
-
-.nav_links {
-  align-items: center;
-  display: flex;
-  justify-content: end;
-  margin-right: 40px;
-  width: 60%;
-}
-
-ul {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  justify-content: flex-end;
+  background-color: white;
 }
 
 h2 {
   font-family: 'Gruppo', cursive;
+  padding-bottom: 2rem;
+}
+
+p {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  margin: 0;
+}
+
+.nav-list {
+  background: #999999;
+  margin: 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-right: .5rem #000;
+  border-bottom: .075rem solid #000000;
+}
+
+.logo {
+  width: 10rem;
+  height: 5rem;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  transition: 1000ms;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 1rem;
+  list-style-type: none;
+}
+
+.nav-item a:hover {
+  font-size: 1.2rem;
+  color: black;
+}
+
+a:active {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.nav-item:nth-child(2) {
+  border-right: 1px solid black;
+}
+
+.nav-item:nth-child(3) {
+  border-right: 1px solid black;
+}
+
+.who_we_are_container {
+  background-color: #006A4F;
+  padding: 2rem;
+  line-height: 1.5rem;
+}
+
+.what_we_do_container {
+  background-color: #333;
+  padding: 2rem;
+  line-height: 1.5rem;
+}
+
+.wwac-text {
+  color: #e6e6e6;
+}
+
+.wwdc-text {
+  color: #e6e6e6;
+}
+
+footer {
+  background: #999999;
+  padding: 2rem;
+  line-height: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  line-height: 2rem;
+  align-items: center;
+}
+
+.footer-text {
+  color: #e6e6e6;  
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #e6e6e6;
 }
