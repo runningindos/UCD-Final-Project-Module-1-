@@ -42,6 +42,9 @@ a {
 
 nav{
   position: sticky;
+  top: 0;
+  z-index: 9;
+  opacity: .8;
 }
 
 .hero {
@@ -52,7 +55,7 @@ nav{
   padding: 0;
   position: relative;
   align-items: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 video {
@@ -98,8 +101,9 @@ video {
 }
 
 .nav-item a:hover {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: black;
+  font: bolder;
 }
 
 .nav-item:nth-child(2) {
@@ -120,14 +124,14 @@ video {
 }
 
 .header-image-container {
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin-right: 2rem;
 }
 
 .gym-image {
   position: relative;
   align-items: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .what-we-do-container {
@@ -232,7 +236,7 @@ footer {
 }
 
 .emma-header-and-image {
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin-right: 2rem;
 }
 
@@ -246,7 +250,7 @@ footer {
 }
 
 .henry-header-and-image {
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin-right: 2rem;
 }
 
@@ -255,7 +259,7 @@ footer {
 }
 
 .henry-image {
-    overflow: hidden;
+    /*overflow: hidden;*/
     width: 800px;
     height: 179px;
 }
@@ -270,12 +274,12 @@ footer {
 }
 
 .cameron-header-and-image {
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin-right: 2rem;
 }
 
 .cameron-image {
-  overflow: hidden;
+  /*overflow: hidden;*/
   width: 950px;
   height: 210px;
 }
@@ -290,7 +294,7 @@ footer {
 }
 
 .talbot-header-and-image {
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin-right: 2rem;
 }
 
@@ -299,7 +303,7 @@ footer {
 }
 
 .talbot-image {
-  overflow: hidden;
+  /*overflow: hidden;*/
   width: 1150px;
   height: 230px;
 }
@@ -314,7 +318,7 @@ footer {
 }
 
 .sarah-header-and-image {
-  overflow: hidden;
+  /*overflow: hidden;*/
   margin-right: 2rem;
 }
 
