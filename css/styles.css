@@ -228,6 +228,7 @@ footer {
 /*experts page*/
 
 .emma-langston {
+  background-image: url(../images/silver-water-background.png);
   background-color: #006A4F;
   padding: 2rem;
   line-height: 1.5rem;
@@ -239,6 +240,12 @@ footer {
 .emma-header-and-image {
   /*overflow: hidden;*/
   margin-right: 2rem;
+}
+
+.emma-general-text {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 1.2em;
+  color: #010b13;
 }
 
 .henry-arai {
@@ -326,13 +333,21 @@ footer {
 /*facilities page*/
 
 .facilities-description {
-  background-color: #006A4F;
+  background-color: #e6e6e6;
+  color: #010b13;
   padding: 2rem;
   line-height: 1.5rem;
+  background-image: url(../images/sleek-background.png);
 }
 
 .facilities-heading {
-  color: #e6e6e6;
+  color: #010b13;
+}
+
+.other-facilities-text {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 1.2em;
+  color: #010b13;
 }
 
 .pool {
@@ -414,6 +429,12 @@ footer {
   color: #000;
 }
 
+.facilities-services-list {
+  margin: 1rem auto 1rem 2rem;  
+  color: #006A4F;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
 .pricing {
   background-color: #333;
   padding: 2rem;
@@ -467,22 +488,36 @@ footer {
 
 /*contact page*/
 
+.contact-header {
+  color: #010b13;
+}
+
 .contact-container {
-  background-color: #e6e6e6;
-  padding: 2rem;
+  background-color: #333;
+  padding: 2rem 2rem 2rem 2rem;
   line-height: 1.5rem;
-  color: black;
+  color: #010b13;
+  background-image: url(../images/reception.png);
+  background-size: cover;
 }
 
 .contact-form-container {
+  width: 400px;
   display: flex;
   flex-direction: column;
-  margin: 5rem;
+  margin: 2rem auto 2rem auto;
+  border: 2px solid #333;
+  border-radius: 40px;
+  background-color: #e6e6e6;
+  opacity: .8;
+  box-shadow: 0 0 15px #999999;
 }
 
 form {
+  background-color: #e6e6e6;
   display: flex;
   flex-direction: column;
+  margin: 2rem;
 }
 
 .checkboxes {
@@ -490,10 +525,35 @@ form {
   justify-content: space-between;  
 }
 
-.checkbox-label {
+input {
+  background-color: rgba(0, 0, 0, .8);
+  border: none;
+  border-radius: 15px;
+  height: 2.5rem;
+  text-align: center;
+  color: #e6e6e6;
+  font-weight: bolder;
+  font-size: 1.4em;
+}
+
+.contact-text {
+  margin-top: 1rem;
+}
+::placeholder {
+  color: #e6e6e6;}
+
+/*edge*/:-ms-input-placeholder {
+  color: #e6e6e6;
+}
+
+::-ms-value {
+  color: #006A4F;
+}
+
+/*.checkbox-label {
   margin-left: 6rem;
 }
 
 .checkbox-input {
   margin-right: 6rem;
-}
+}*/
