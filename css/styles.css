@@ -14,28 +14,98 @@ body {
 
 /*media queries*/
 
-@media (max-width: 500px) {
+@media (max-width: 499px) {
   * {
     font-size: .9em;
-    display: inline-block;
+    display: flexbox;
   }
+
+  a img {
+    width: 100%;
+    height: 100%;
+  };
   
+  h1 {
+    font-size: 1.2rem;
+  }
   body {
     max-width: 100%;
   }
-}
 
-@media (max-width: 500px) {
-  * {
-    font-size: .75em;
+  /*footer {
+    display: flex;
+    flex-direction: column;
   }
 
-  nav {
-    width: 100%;
+  /*index page*/
+  .header-image-container {
+    display: none;
   }
-}
 
-/*end media queries*/
+  /*end index page*/
+
+  /*universal experts page*/
+
+  .expert-name-span {
+    font-size: 1.2rem;
+  }
+
+  /*emma container*/
+  .emma-header-and-image {
+    display: none;
+  }
+
+  #emma-general-text-2{
+    display: none;
+  }
+  /*end emma-container*/
+
+  /*henry container*/
+  .henry-header-and-image {
+    display: none;
+  }
+
+  #henry-general-text-2, 
+  #henry-general-text-3 {
+    display: none;
+  }
+  /*end henry container*/
+
+  /*cameron container*/
+  .cameron-header-and-image {
+    display: none;
+  }
+
+  #cameron-general-text-2, 
+  #cameron-general-text-3 {
+    display: none;
+  }
+  /*end cameron container*/
+
+  /*talbot container*/
+  .talbot-header-and-image {
+    display: none;
+  }
+
+  #talbot-general-text-2, 
+  #talbot-general-text-3 {
+    display: none;
+  }
+  /*end talbot container*/
+
+  /*sarah container*/
+  .sarah-header-and-image {
+    display: none;
+  }
+
+  #sarah-general-text-2, 
+  #sarah-general-text-3 {
+    display: none;
+  }
+  /*end sarah container*/
+} 
+
+
 
 h1 {
   font-family: 'Gruppo', sans-serif;
@@ -465,6 +535,14 @@ footer {
   padding: 2rem;
   line-height: 1.5rem;
   color: #e6e6e6;
+}
+
+.table-container {
+}
+
+.content-table {
+  max-width: 400px;
+
 }
 
 .table-text {
