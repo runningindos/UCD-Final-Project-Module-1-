@@ -652,6 +652,10 @@ input {
   color: #006A4F;
 }
 
+.git-repo {
+  font-size: .5rem;
+}
+
 /*.checkbox-label {
   margin-left: 6rem;
 }
